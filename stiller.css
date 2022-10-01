@@ -1,0 +1,97 @@
+*{margin: 0px; box-sizing: border-box;}
+
+header{
+    display: inline;
+    height: 150px;
+    background-color: white;
+
+}
+header img{
+    text-align: left;
+    height: 150px;
+    width: auto;
+    
+}
+header a{
+    font-family: cursive;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    border: 1px solid;
+    background: sandybrown;
+    width: 100px;
+    text-align: center;
+    text-decoration: auto;
+}
+
+header a:hover{
+    background-color: azure;
+}
+.form{
+    width: 100%;
+    min-height: 700px;
+    background-color: lavender;
+    padding: 5% 10% 5% 10%;
+    
+}
+.form h1{margin-bottom: 20px; font-family: fantasy; }
+.form #sart{margin-bottom:30px; color: rgb(88, 10, 10); font-size: medium; text-decoration: underline;}
+.form label{
+    
+    text-align: left;
+    margin-left: 0px;
+    font-family: emoji;
+    font-size: x-large;
+
+}
+
+.form input{
+
+    height: 30px;
+    border-radius: 10px;
+    margin: 20px;
+
+    
+    text-align: left;
+    width: 300px;
+    
+}
+.form input:active{background-color: aquamarine;}
+.form .cinsiyet{padding: 0px; width: 20px;}
+.form #formbas{height: auto; width: 100%; margin:auto}
+.form .sec{width: 20px;}
+.form .secim{float: left; overflow: hidden;}
+#sec{overflow: hidden;}
+.form .metin{border-top: none; border-right: none; border-radius: 0px; width: 100px;}
+footer{
+    text-align: center;
+    background-color: rgb(14, 3, 39);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+
+}
+footer button{margin-top:20px;width: 100px; 
+    height: 40px; background-color: lavender; 
+    color: black; font-family: cursive;
+    border-radius: 10px;
+}
+footer button:hover{background-color: brown;}
+footer input{border-radius: 5px; width: 380px;     height: 20px;
+    margin: 10px; background-color: lavender;
+}
+footer textarea{border-radius: 10px; margin: 10px; background-color: lavender;}
+footer h1{text-align: center; font-family: cursive; margin: 10px; color: lavender;}
+.alt{
+    padding-top: 1%;
+    padding-left: 2%;
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+   
+    
+}

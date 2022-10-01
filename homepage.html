@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stiller.css">
+    
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <title>İLAÇ YANETKİ BİLDİRİ FORMU</title>
+    
+</head>
+<body>
+<header>
+  <img src="resimler/tubitak.png" id="tubitak"/>
+  <a href="#">İLETİŞİM</a>  
+</header>
+
+  <div class="owl-carousel owl-theme">
+    <div class="item"><img src="resimler/1.jpg"/></div>
+    <div class="item"><img src="resimler/2.jpg"/></div>
+    <div class="item"><img src="resimler/3.jpg"/></div>
+    <div class="item"><img src="resimler/4.jpg"/></div>
+    <div class="item"><img src="resimler/5.jpg"/></div>
+   
+</div>
+
+  
+ <form class="form" action="#" method="POST" name="form-gonder">
+      
+      <h1>İLAÇ YAN ETKİ BİLDİRİ FORMU</h1>
+    
+  <p id="sart">*Lütfen bilgileri eksiksiz ve doğru giriniz!</p><br>
+  <div id="formbas">
+  <label>İlaç adı :</label> <input list="ilaclar" value="ilaclar">
+  <datalist id="ilaclar">
+    <option>parol50</option><option>aspirin</option><option>parol</option><option>keppra500</option><option>keppra1000</option><option>parol25</option>
+    <option>parol40</option><option>tiroidilacı</option><option>ataraz</option><option>ialc2</option><option>kanilacı</option><option>parol20</option>
+  </datalist>
+    <br>
+  <div class="cins">
+<label>Cinsiyet : </label><br><input type="radio" name="cinsiyet" value="erkek" class="cinsiyet">
+<label class="cinsiyet" for="erkek">Erkek</label> 
+  <input type="radio" name="cinsiyet" value="kadin" class="cinsiyet">
+  <label class="cinsiyet" for="kadin">Kadın</label>
+  </div><br>
+  <label> Doğum Yılı ve Ayı :</label> <input type="month" name="month"> <br>
+  <label>Kilo :</label> <input type="number" name="kilo" min="1" max="300"> <br>
+  <label>Boy :</label> <input type="number" name="boy" min="10" max="250"><br>
+  <label> Kan Grubu :</label> <input list="kan">
+  <datalist id="kan">
+    <option>0Rh+</option><option>0Rh-</option><option>ARh+</option><option>ARh-</option><option>BRh+</option><option>BRh-</option>
+    <option>ABRh+</option><option>ABRh-</option>
+  </datalist>
+   <br>
+   <label>Varsa Kullandığınız Diğer İlaçlar Listeden seçiniz;</label> <textbox> <br>
+    <label>Kronik rahataızlıklarınız :</label> <br>
+      <label> Alerjileriniz : </label> <br>
+  <br>
+  <br>
+  İLAÇ İLE ALAKALI YAŞADIĞINIZ YAN ETKİYİ/YAN ETKİLERİ SEÇİNİZ(eğer seçeneklerde yoksa yazınız) 
+   <br>
+   <div id="sec">
+  <div class="secim"> <input class="sec" type="checkbox" value="basdönmesi"><label> Baş Dönmesi</label></div>
+  <div class="secim"> <input  class="sec" type="checkbox" value="midebulantisi"><label> Mide Bulantısı</label></div>
+    <div class="secim"> <input class="sec" type="checkbox" value="basagrisi"><label> Baş ağrısı</label></div>
+      <div class="secim"> <input class="sec" type="checkbox" value="ishal"><label> İshal</label></div>
+      <div class="secim"> <input class="sec" type="checkbox" value="basdönmesi"><label> Baş Dönmesi</label></div>
+  <div class="secim"> <input  class="sec" type="checkbox" value="midebulantisi"><label> Mide Bulantısı</label></div>
+    <div class="secim"> <input class="sec" type="checkbox" value="basagrisi"><label> Baş ağrısı</label></div>
+      <div class="secim"> <input class="sec" type="checkbox" value="ishal"><label> İshal</label></div>
+      <div class="secim"> <input class="sec" type="checkbox" value="basdönmesi"><label> Baş Dönmesi</label></div>
+  <div class="secim"> <input  class="sec" type="checkbox" value="midebulantisi"><label> Mide Bulantısı</label></div>
+    <div class="secim"> <input class="sec" type="checkbox" value="basagrisi"><label> Baş ağrısı</label></div>
+      <div class="secim"> <input class="sec" type="checkbox" value="ishal"><label> İshal</label></div><br>
+     <div class="metin"> <input type="textbox" value="yaziniz"></div>
+
+   </div>
+   <br><button type="submit" value="Formu Gönder">GÖNDER</button>
+      </div>
+    </form>
+<br>
+<br>
+<br>
+
+
+   
+<footer class="iletisim">
+  <h1>İLETİŞİM</h1><br>
+  E-MAİL  <input type="e-mail" ><br>
+  
+  <textarea rows="10" cols="70">Görüş ve Önerilerinizi Bizimle Paylaşın..</textarea>
+<br>
+<button value="GÖNDER">GÖNDER</button>
+  
+</div>
+    
+    
+
+</div>
+
+</footer>
+
+<div class="alt">
+Tüm Hakkı Saklıdır by Aynur SÖNMEZ <br><b>TÜBİTAK</b> 
+</div>
+
+
+
+<script src="owlcarousel/jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.js"></script>
+
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+</script>
+
+
+</body>
+</html>
